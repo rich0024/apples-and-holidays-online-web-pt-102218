@@ -74,6 +74,5 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do |holiday, supplies|
       if supplies.includes? "bbq"
         returns holiday 
-    end
   end
 end
